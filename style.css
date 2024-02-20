@@ -85,3 +85,27 @@ border: 1px solid rgba(25, 36, 35, 0.3);
 .show{
     display: block;
 }
+.fs{
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.icon-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid gray;
+    color: white;
+    background-color: teal;
+    transition: all .4s;
+}
+.icon-circle:hover{
+    background-color: black;
+}
